@@ -9,6 +9,10 @@
 - package.json fundamentals
 ## 03-Rest-API
 - REST API fundamentals
-- Express application structure
+- Express app setup
 - Route handling
 - Request and response objects
+## 04-Rest-API-todo
+- CRUD 
+- Express app setup
+- todo API
