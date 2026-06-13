@@ -16,3 +16,30 @@
 - CRUD 
 - Express app setup
 - todo API
+## 05-Mongo-DB
+- basics
+- CRUD
+- database
+- URI and security
+- more...
+## 06 & 07 ImageKit
+- imagekit basics
+- package working
+- practical use
+- uploading
+- security
+- more...
+## 08-Frontend-Implementation
+- React basics
+- frontend libraries
+- useState
+- frontend part of full stack
+- more...
+## 09-Mini-FullStack-Application
+- frontend and backend connection
+- axios , react , router , dom
+- CORS policy and libraries
+- CRUD
+- DB frontend interactions
+- Realtime data changes
+- more...
