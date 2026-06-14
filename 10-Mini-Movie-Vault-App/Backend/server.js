@@ -1,0 +1,10 @@
+require("dotenv").config()
+const connectDB = require("./src/database/db")
+connectDB()
+
+const app = require("./src/app")
+
+app.listen(3000 , () => {
+    console.log("Server is running");
+    
+})

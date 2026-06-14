@@ -1,0 +1,105 @@
+:root {
+  color-scheme: light;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #eee;
+  color: #111;
+}
+
+.page-shell {
+  max-width: 640px;
+  margin: 24px auto;
+  padding: 24px;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 16px;
+}
+
+.page-shell-wide {
+  max-width: 940px;
+}
+
+.page-shell h1 {
+  margin: 0;
+  font-size: 24px;
+  text-align: center;
+}
+
+.page-form {
+  display: grid;
+  gap: 12px;
+  margin-top: 18px;
+}
+
+.text-field {
+  width: 100%;
+  min-height: 44px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  background: #fff;
+  color: #111;
+  font-size: 15px;
+}
+
+.text-field[type='file'] {
+  padding: 10px;
+}
+
+.form-button {
+  width: 100%;
+  border: none;
+  border-radius: 12px;
+  padding: 12px;
+  background: #111;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.form-button:hover {
+  background: #000;
+}
+
+.page-message {
+  margin-top: 18px;
+  text-align: center;
+}
+
+.movie-grid {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+}
+
+.movie-card {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.movie-card-image {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+  min-height: 160px;
+}
+
+.movie-card-body {
+  padding: 14px;
+}
+
+.movie-card-body h2 {
+  margin: 0 0 10px;
+  font-size: 18px;
+}
+
+.movie-card-body p {
+  margin: 6px 0;
+  font-size: 14px;
+  color: #222;
+}
