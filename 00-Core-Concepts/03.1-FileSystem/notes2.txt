@@ -1,0 +1,5 @@
+This is totally Written by writeFile fuction
+This is written using append function
+This is written using append function
+This is written using append function
+This is written using append function 2
